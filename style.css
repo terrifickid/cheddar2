@@ -1,0 +1,184 @@
+/*
+Theme Name: Cheddar2 theme
+Author: tk@terrifickid.net
+Text Domain: cheddarblog
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+
+
+   
+
+*/
+
+
+.alignright{float: right; margin: 1rem 0 1rem 1rem;}
+.alignleft{float: left; margin: 1rem 1rem 1rem 0rem;}
+body, html{background: url('img/background.png'); font-family: 'Muli', sans-serif;}
+
+h3{letter-spacing: 0.75px; font-size: 1.25rem; text-transform: uppercase;}
+
+
+a:hover{text-decoration: none;}
+
+.y{color: #fbf076;}
+.g{color: #6b6b6b;}
+.lg{color: #8a8a8a;}
+.g-link{color: black; font-weight: bold;}
+
+.c_link{cursor: pointer;}
+
+.cb {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  cursor: pointer;
+  background: none;
+  border: 1px solid #7fa139;
+  font-size: 1rem;
+  letter-spacing: 0.02rem;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  }
+
+
+#header h3{text-align: center;text-shadow: 1px 1px 2px black; padding:0; margin:0;}
+#header .cb{font-size: 0.8rem;}
+
+#header h4{font-size:0.8rem; text-transform: uppercase; margin: 1rem 0;}
+
+#shadow{
+	background: white;
+	-webkit-box-shadow: 2px 2px 21px 0px rgba(147, 147, 147, 0.95);
+-moz-box-shadow:    2px 2px 21px 0px rgba(147, 147, 147, 0.95);
+box-shadow:         2px 2px 21px 0px rgba(147, 147, 147, 0.95);
+
+
+}
+#header{color: white;  
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+padding: 3rem 0 5rem 0;
+     background: url('img/cheddar2_header3.jpg'); background-position: center center; background-size: cover;}
+
+
+#logo{height: 120px; width: 100%; 
+		background: url('img/logo.png'); 
+		background-size: contain; 
+		background-repeat: no-repeat; 
+		background-position: center center;
+		
+		display: block;}
+.white_content{padding: 2rem;}
+.white_content h1, .white_content h2, .white_content h3, .white_content h4{font-size: 1.5rem; margin-top: 2rem; font-weight: bold; text-transform: none; color: #4c8722;  }
+.alignright{float: right; margin: 1rem 0 1rem 1rem;}
+.sleeve{padding: 0 1rem;}
+.white_content a{color: #6ca530;}
+
+.c_post{padding: 2rem 1rem; border-bottom: 1px dotted black; color: #5d5d5d;}
+ .c_post h2{margin-top: 0;}
+.c_paginator{text-align: center; padding: 4rem 0;}
+.page-numbers{ text-transform: uppercase; font-size: 1rem; letter-spacing: 0.75px; color: #a5a5a5 !important; border-radius: 2px; padding: 0.25rem 0.5rem;}
+.page-numbers.current, .page-numbers:hover{color: white !important; background: #6ca530;}
+
+.c_readmore{display: inline-block; color: black !important; font-weight: bold; margin-bottom: 1rem;}
+
+#post_header{
+	padding: 2rem;
+	background: #6ca530 url('img/post_header.png');
+	background-size: cover;
+	background-position: center bottom;
+}
+#post_header h1{color: white; font-weight: bold; text-transform: uppercase; font-size: 2.5rem; margin-bottom: 1rem; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.35); }
+
+.cdate{text-transform: uppercase; font-weight: bold; color: black;
+}
+
+#c_list_head{ border-left: 1px solid #b1d44e; }
+#c_list_head h3{ font-size: 1.2rem; font-weight: 300; color: white; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.35);}
+
+input.sign-me-up{
+	background: #276308 !important; border: 0; color: #d4e0ce !important; text-align: center; letter-spacing: 0.75px; 
+	
+}
+input.sign-me-up::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #d4e0ce;
+    opacity: 1; /* Firefox */
+}
+
+
+#footer input.sign-me-up{text-align: left; color: white !important;}
+#footer input.sign-me-up::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 0.5; /* Firefox */
+}
+ 
+button.sign-me-up{
+ 
+  background: #fcb42e;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  color: #59552d;
+  padding: 1rem 2rem;
+  margin: 3rem 0;
+  border: 0 !important;
+  text-decoration: none;
+ display: inline-block;
+ letter-spacing: 0.75px;
+ text-transform: uppercase;
+ font-size: 1.25rem;
+ font-weight: 500;
+  
+}
+
+#footer button.sign-me-up{font-size: 0.75rem; width: auto; padding: 0.25rem 1rem; cursor: pointer;}
+
+#footer{
+	padding: 2rem 3rem;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3d3d3d+0,3d3d3d+100 */
+background: #353635; /* Old browsers */
+ font-size: 12px !important;
+
+color: #b8b8b8;
+  color: white;
+}
+
+
+#footer a{color: #b8b8b8;}
+#footer a:hover{text-decoration: underline;}
+#footer .socials{font-size: 1.5rem;}
+ #subForm{font-size: 12px !important;
+ }
+
+#footer .cb{font-size: 12px !important;}
+#footer h4{ color: #7fa139; border-bottom: 2px solid #7fa139; padding-bottom: 1rem; margin-bottom: 1rem; font-weight: bold; font-size: 0.75rem; text-transform: uppercase;  }
+#footer ul{list-style: none; padding:0; margin:0;}
+#footer ul a{color: white !important;}
+#footer_copy{
+	background: #2e2e2e;
+	text-transform: uppercase;
+	padding: 1rem;
+	text-align: center;
+	 
+	border-top: 1px solid #4f4f4f;
+	letter-spacing: 0.75px;
+}
+
+
+.back-to-blog{background: white; color: black !important; border: 2px solid #6ca530; border-radius: 10px; text-transform: uppercase; padding: 1rem 2rem; font-weight: normal;}
+#c_backtoblog{ background: url('img/line.png'); background-position: center center; background-repeat: repeat-x; margin-bottom: 3rem; margin-top: 3rem; }
+
+.footer_content{    background-position: center center; background-repeat: repeat-y;}
+.footer_content .fa-chevron-left, .footer_content .fa-chevron-right{color: #6ca530 !important; font-size: 23px; }
+@media (max-width: 575.98px) {   }
+
+ 
+@media (max-width: 767.98px) {   }
+
+ 
+@media (max-width: 991.98px) { #c_list_head{border-top: 1px solid #b1d44e; border-left: 0; padding-top: 1rem;}   }
+
+ 
+@media (max-width: 1199.98px) {  }
